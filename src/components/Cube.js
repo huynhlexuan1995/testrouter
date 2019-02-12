@@ -27,6 +27,16 @@ class Cube extends React.Component{
 						<i><FontAwesomeIcon icon={Icon.faHeartbeat}/></i>
 					</div>
 				</div>
+				<div className="row">
+					<div className="fot-left">
+						<br/>
+						<br/>
+						<p>===================</p>
+						<h3>Lê Xuân Huỳnh</h3>
+						<h3>FABBI</h3>
+						<h4>Đông Thanh - Đông Sơn - Thanh Hóa</h4>
+					</div>
+				</div>
 			</div>
 		);
 	}
