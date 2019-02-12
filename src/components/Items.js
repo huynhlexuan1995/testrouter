@@ -48,7 +48,7 @@ const Items=()=>{
 			   <div className="inner">
 			   	 	<h1>{article.title}</h1>
 			    	<div>{article.description}</div>
-			    	<button type="button" className="btn btn-success">{article.button}</button>
+			    	<button type="button" className="btn btn-success" onClick={showDetail}>{article.button}</button>
 			   </div>
 			  </div>)}
 			</Slider>
